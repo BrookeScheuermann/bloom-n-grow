@@ -1,0 +1,120 @@
+body {
+    background-image: url("Leaves.png");
+    background-color: #cccccc;
+  margin: 0;
+  padding: 0;
+  font-family: var(--sans-font);
+  color: rgb(255, 255, 255);
+}
+
+*{
+  font-family: "Fugaz One" sans-serif;
+}
+
+header {
+  color: #ffffff;
+  position:static;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  z-index: 10;
+}
+
+main {
+  margin-top: 20px;
+  padding: 1rem;
+  /* text-align: center;  */
+}
+
+ul {
+  list-style-position: inside;
+  /* text-align: center; */
+  padding-left: 0; 
+}
+main {
+  display: flex
+;
+  flex-direction: column;
+  gap: 50px;
+}
+
+h1 {
+  font-family: 'Fugaz One', cursive;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+  }
+ 
+  h3 {
+    font-family: "Open Sans", sans-serif;
+  }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+.welcome {
+  background-color: #343c31f7;
+  box-sizing: border-box;
+  padding: 40px;
+  /* text-align: center; */
+  width: 100%;
+}
+
+.benefits {
+  background-color: #343c31f7;
+  box-sizing: border-box;
+  padding: 40px;
+  /* text-align: center; */
+  width: 100%;
+}
+
+.reccomendations {
+  background-color: #343c31f7;
+  box-sizing: border-box;
+  padding: 40px;
+  /* text-align: center; */
+  width: 100%;
+}
+
+.plantcare {
+  background-color: #343c31f7;
+  box-sizing: border-box;
+  padding: 40px;
+  /* text-align: center; */
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
