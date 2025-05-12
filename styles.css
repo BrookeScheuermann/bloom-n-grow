@@ -82,6 +82,22 @@ header nav a {
   font-weight: bold;
 }
 
+header nav a:hover {
+  color: #c5ffa5;
+  text-decoration: underline;
+  transition: 0.2s ease-in-out;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+  z-index: -1;
+}
 
 .welcome {
   background-color: #343c31f7;
@@ -99,7 +115,7 @@ header nav a {
   width: 100%;
 }
 
-.reccomendations {
+.recommendations {
   background-color: #343c31f7;
   box-sizing: border-box;
   padding: 40px;
@@ -115,6 +131,21 @@ header nav a {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .welcome, .benefits, .recommendations, .plantcare {
+    padding: 20px;
+  }
+}
+.centered-content {
+  max-width: 900px; 
+  margin: 0 auto;  
+  text-align: left; 
+  padding: 0 20px;  
+}
 footer {
   text-align: center;
 }
